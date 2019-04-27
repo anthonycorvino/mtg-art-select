@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  display: inline-block;
 }
 
 .App-logo {
@@ -23,17 +24,27 @@
   color: #61dafb;
 }
 
+header {
+  margin-bottom: 20%;
+}
+
+#containerImport{
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
+
 #container {
+  background-color: rgb(56, 54, 54);
   height: 200px;
   width: 300px; 
   border: 1px solid #ddd;
   border-radius: 40px;
-  padding-top: 10%;
-  padding-right: 50%;
+  padding: 170px;
   overflow: auto;
-  display: inline-block;
-  margin: 0 auto;
+
 }
+
 
 div {
   margin: 0 auto;

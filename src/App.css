@@ -28,18 +28,6 @@
   background-color: #e8e8e3;
 }
 
-title {
-  padding-bottom: 20%;
-}
-
-body {
-  background-color: #9f9f93;
-}
-
-head {
-  margin-bottom: 100px;
-}
-
 #pageText {
   text-align: center;
   display: inline-block;
@@ -89,11 +77,22 @@ head {
   text-align: center;
 }
 
+title {
+  padding-bottom: 20%;
+}
+
+body {
+  background-color: #9f9f93;
+}
+
+head {
+  margin-bottom: 100px;
+}
+
 div {
   margin: 0 auto;
   width: 800px;
 }
-
 
 img {
   border: 1px solid #ddd;

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import {useState} from 'react';
 
 /* Trying out custom hooks for handling user input
 See https://reactjs.org/docs/hooks-intro.html for more info */
@@ -9,8 +9,8 @@ const useDeckForm = (callback) => {
     /* Only 2 variables are ever passed from useState, an 
     index of arguments and setter to update them. The callback
     argument to useDeckForm is also a function and another hook
-    can be passed as the argument, see line 35 of
-    App.js for its invocation with the deckSubmitted function
+    can be passed as the argument, see line ~38 of
+    App.js for its invocation with the deckSubmitted hook
     as an argument */
 
     const [inputs, setInputs] = useState({});

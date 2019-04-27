@@ -3,7 +3,7 @@ import useDeckForm from './CustomHooks';
 import './App.css';
 
 /*
-Main app class
+Main app hook - mtg-art-select
 
 TODO: 
 Clean this up into multiple files 
@@ -57,16 +57,14 @@ const App = () => {
             </div>
           </form>
         </div>
-        <div id="containerLands">  /*Placeholder until we figure out the logic to display
-           correct items on screen */
-          <p id="containsText">Your deck contains the following 
-          lands: Swamp, Island</p> 
+        <div id="containerLands">  
+          <p id="containsText"/* Placeholder until we figure out
+          the logic for display the right lands */>Your deck 
+          contains the following lands: Swamp, Island</p> 
         </div>
-        
-        /* TODO: move style tag for containerAlts into css file
-         and move all the image divs into another file if 
-         possible for readability */
-        <div id="containerAlts" style={{backgroundColor: "#878778"}}>
+        <div id="containerAlts"/*TODO: move this style
+        attribute into the css file */ style={{backgroundColor: 
+        "#878778"}}>
           <a href="https://www.mtgpics.com/pics/big/pmo/485.jpg">
             <img src="https://www.mtgpics.com/pics/big/pmo/485.jpg" 
             alt="Swamp-PMO485"></img>

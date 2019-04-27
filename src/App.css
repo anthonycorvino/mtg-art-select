@@ -24,32 +24,67 @@
   color: #61dafb;
 }
 
-header {
-  margin-bottom: 20%;
+.navbar-expand-lg {
+  background-color: #e8e8e3;
+}
+
+title {
+  padding-bottom: 20%;
+}
+
+body {
+  background-color: #9f9f93;
+}
+
+head {
+  margin-bottom: 100px;
+}
+
+#pageText {
+  text-align: center;
+  display: inline-block;
 }
 
 #containerImport{
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 20px;
+  background-color: #9f9f93;
+  height: 200px;
+  width: 700px; 
+  border: 1px solid #ddd;
+  border-radius: 40px;
+  padding: 100px;
+  overflow: auto;
 }
 
+#containerLands{
+  background-color: #9f9f93;
+  height: 200px;
+  width: 700px; 
+  border: 1px solid #ddd;
+  border-radius: 40px;
+  padding: 100px;
+  overflow: auto;
+  margin-bottom: 40px;
+}
+
+
 #container {
-  background-color: rgb(56, 54, 54);
+  background-color: #f3f3f1;
   height: 200px;
   width: 300px; 
   border: 1px solid #ddd;
   border-radius: 40px;
   padding: 170px;
-  overflow: auto;
-
+  margin: 0 auto;
+  text-align: center;
 }
 
+#pageText {
+  text-align: center;
+}
 
 div {
   margin: 0 auto;
-  text-align: center;
-  display: inline-block;
+  width: 800px;
 }
 
 

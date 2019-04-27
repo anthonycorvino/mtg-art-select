@@ -66,6 +66,13 @@ head {
   margin-bottom: 40px;
 }
 
+#containerAlts {
+  display: none;
+}
+
+#containsText {
+  display: none;
+}
 
 #container {
   background-color: #f3f3f1;

@@ -23,11 +23,35 @@
   color: #61dafb;
 }
 
-#cardImg {
-  margin: 0 auto;
+#container {
   height: 200px;
-  width: 150px;
-  size: 20px;
+  width: 300px; 
+  border: 1px solid #ddd;
+  border-radius: 40px;
+  padding-top: 10%;
+  padding-right: 50%;
+  overflow: auto;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+div {
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+}
+
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 125px;
+  display: inline-block;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
 @keyframes App-logo-spin {

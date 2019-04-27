@@ -1,13 +1,16 @@
 import React from 'react';
+import { useClipboard } from 'use-clipboard-copy';
 import './App.css';
 
-function App() {
+function App(fullDecklist) {
+  const clipboard = useClipboard();
+
   return (
     <div className="App">
       <h1>MTG Art Select</h1>
         <div id="containerImport">
           <p id="pageText">Import your decklist here....</p>
-          <button>Import</button>
+          <button onClick={clipboard.copy}>Import</button>
         </div>
         <div id="containerLands">
           <p id="pageText">Your deck contains the following 
